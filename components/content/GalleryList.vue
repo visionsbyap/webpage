@@ -4,7 +4,7 @@ import { withTrailingSlash } from "ufo";
 const props = defineProps({
   path: {
     type: String,
-    default: "galleries",
+    default: "gallery",
   },
 });
 
@@ -14,14 +14,14 @@ const { data: _galleries } = await useAsyncData(
     await queryContent(withTrailingSlash(props.path)).find()
 );
 
-const galleries = computed(() => _galleries.value || [])
+const galleries = computed(() => _gallery.value || [])
 
 </script>
 
 <template>
-  <div v-if="galleries?.length" class="not-prose grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+  <div v-if="gallery?.length" class="not-prose grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
       <GalleryListItem
-        v-for="(gallery, index) in galleries"
+        v-for="(gallery, index) in gallery"
         :key="index"
         :gallery="gallery"
       />
