@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "nuxi dev",
-    "build": "nuxi build",
+    "build": "sanity build",
     "generate": "nuxi generate",
     "preview": "nuxi preview",
     "lint": "eslint .",
