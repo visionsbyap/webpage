@@ -4,6 +4,7 @@ const links = [
   { name: "Gallery", to: "/galleries" },
   { name: "Events", to: "/events" },
   { name: "Contact", to: "/contact" },
+  { name: "FAQ", to: "/faq" },
 ] as { name: string; to: string }[];
 
 onMounted(() => {
