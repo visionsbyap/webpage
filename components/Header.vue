@@ -5,7 +5,7 @@ const links = [
   { name: "Events", to: "/events" },
   { name: "Contact", to: "/contact" },
   { name: "WR", to: "/wrquestions" },
-  { name: "WT", to: "/weddingtips" },
+  { name: "WTtips", to: "/weddingtips" },
 ] as { name: string; to: string }[];
 
 onMounted(() => {
