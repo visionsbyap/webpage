@@ -7,8 +7,8 @@
   "scripts": {
     "dev": "nuxi dev",
     "build": "nuxi build",
-    "generate": "nuxi generate",
-    "preview": "nuxi preview",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
     "lint": "eslint .",
     "prepublishOnly": "pnpm lint",
     "release": "release-it"
