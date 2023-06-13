@@ -2,6 +2,9 @@
 export default defineNuxtConfig({
   pages: true,
   "target" : "static"
+    generate: {
+    dir: 'dist'
+  }
   /**
    * Nuxt.js modules
    */
