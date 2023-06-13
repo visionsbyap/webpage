@@ -2,8 +2,9 @@
 const links = [
   { name: "Home", to: "/" },
   { name: "Galleries", to: "/galleries" },
-  { name: "Events", to: "/stories" },
+  { name: "Events", to: "/events" },
   { name: "Contact", to: "/hire-me" },
+  { name: "FAQ", to: "/FAQ" },
 ] as { name: string; to: string }[];
 
 onMounted(() => {
