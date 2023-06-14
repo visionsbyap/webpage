@@ -1,6 +1,6 @@
 <template>
     <div class="not-prose">
-        <div class="flex flex-col gap-8">
+        <div class="flex flex-col gap-0">
             <slot/>
         </div>
     </div>
