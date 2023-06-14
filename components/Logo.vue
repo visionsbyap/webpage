@@ -6,7 +6,7 @@
     <div class="dark:border-zinc-400 shadow-md group-hover:shadow-xl transition-shadow duration-100 shrink-0">
       <NuxtImg
         class="inline-block h-14 w-14"
-        src="/img/logo.jpg"
+        src="/img/logo.png"
         alt="Pratheep Logaranjan"
         format="webp"
         width="100"
