@@ -25,7 +25,7 @@
           </li>
           <li>
             <NuxtLink to="https://facebook.com/visionsbyap" class="flex items-center gap-2 text-sm text-zinc-500 hover:text-zinc-800 dark:text-zinc-400 dark:hover:text-zinc-100">
-              <Icon name="fe:twitter" size="1.8rem" />
+              <Icon name="fe:facebook" size="1.8rem" />
               <span>visionsbyap</span>
             </NuxtLink>
           </li>
